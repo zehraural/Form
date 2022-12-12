@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 style="font-size: 60px">Clarusway Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform.</p>
+
+    <div>
+      <label for="name">Name</label>
+      <br />
+      <input type="text" name="name" id="name" placeholder="Enter your Name" />
+    </div>
+
+    <div>
+      <label for="surname">Surname</label>
+      <br />
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Enter your Surname"
+      />
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <br />
+      <input
+        type="text"
+        name="email"
+        id="email"
+        placeholder="User@clarusway.com"
+      />
+    </div>
+    <p style="font-size: 25px">
+      Which option best describes your current role?
+    </p>
+    <div>
+      <label for="select"></label>
+      <select name id>
+        <option value="select">Select an option</option>
+      </select>
+    </div>
+    <p style="font-size: 25px">Whould you recommend Clarusway to a friend?</p>
+    <div>
+      <input type="radio" name id />
+      <label for>Definitely,Yes</label>
+      <br />
+      <br />
+      <input type="radio" name id />
+      <label for>Maybe</label>
+      <br />
+      <br />
+      <input type="radio" name id />
+      <label for>Not sure</label>
+      <br />
+      <br />
+      <input type="radio" name id />
+      <label for>Definitely,No</label>
+      <br />
+      <br />
+    </div>
+    <p style="font-size: 25px">
+      Which would you like to see improved?(Check all that apply)
+    </p>
+
+    <div>
+      <input type="checkbox" name="front" id="front" />
+      <label for="front">Frond-end Project</label>
+      <br />
+      <br />
+      <input type="checkbox" name="back" id="back" />
+      <label for="back">Back-end Project</label>
+      <br />
+      <br />
+      <input type="checkbox" name="data" id="data" />
+      <label for="data">Data Science</label>
+      <br />
+      <br />
+      <input type="checkbox" name="add" id="add" />
+      <label for="add">Additional Courses</label>
+      <br />
+      <br />
+    </div>
+    <p style="font-size: 25px">Any comments or suggestions?</p>
+    <textarea name id cols="30" rows="3">
+Enter your comment here...Thanks for your</textarea
+    >
+    <input type="submit" />
+  </body>
+</html>
